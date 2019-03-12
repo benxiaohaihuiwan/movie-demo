@@ -96,7 +96,7 @@ Page({
       }
       // [1,1,1,1,1] [1,1,1,0,0]
       var temp = {
-        stars: subject.rating.stars,
+        stars: util.convertToStarsArray(subject.rating.stars),
         title: title,
         average: subject.rating.average,
         coverageUrl: subject.images.large,
