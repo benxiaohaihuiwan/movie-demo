@@ -5,7 +5,9 @@
     
     "pages/posts/post-detail/post-detail",
     "pages/logs/logs",
-    "pages/movies/movies"
+    "pages/movies/movies",
+    "pages/movies/more-movie/more-movie",
+    "pages/movies/movie-detail/movie-detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -15,7 +17,7 @@
   },
   "tabBar": {
     "borderStyle":"white",
-    "position":"top",
+    "position":"bottom",
     "list": [
       {
         "pagePath": "pages/posts/posts",
